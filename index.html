@@ -1,12 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fish Farm</title>
+    <link rel="shortcut icon" href="images/Logo/favicon1.png" type="image/x-icon">
+    <!--css start------------------------------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/css/style.css">
+    <!--css end--------------------------------->
 </head>
-<body>
-    
+
+<body id="home">
+    <!--header start---------------------------->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#home">
+                    <img src="Logo/LOGO4.png" alt="" width="80" height="40">
+                </a>
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Carp</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Telapia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pangas</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                All Fish
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Carp</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Telapia</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Pangas</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+                    <div class="navbar-collapse collapse show" id="navbarSupportedContent" style="">
+                        <form class="d-flex position-relative">
+                            <input id="Product" class="form-control me-2 rounded-pill" type="search"
+                                placeholder="Search" aria-label="Search" class="">
+                            <button class="btn position-absolute end-0" type="submit"><i
+                                    class="fas fa-search"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--header end------------------------------>
+
+    <!--main start------------------------------>
+    <main>
+        <!--section 1-------------------------->
+        <section id="carp" class="container my-5">
+            <h1>FEATURED PRODUCT</h1>
+            <div class="container d-flex">
+                <h1></h1>
+                <div class="card" style="width: 18rem;">
+                    <img src="images/Carp/carp2.jpg" class="card-img-top" alt="carp2">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn fishfarm-buynow-btn">Buy Now</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="images/Carp/carp1.jpg" class="card-img-top" alt="carp2">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn fishfarm-buynow-btn">Buy Now</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="images/Carp/carp3.jpg" class="card-img-top" alt="carp2">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn fishfarm-buynow-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!--main start------------------------------>
+    <!--footer start---------------------------->
+    <footer></footer>
+    <!--footer end------------------------------>
+    <!--java script start----------------------->
+    <script src="https://kit.fontawesome.com/e54b975587.js" crossorigin="anonymous"></script>
+    <!--java script end------------------------->
 </body>
+
 </html>

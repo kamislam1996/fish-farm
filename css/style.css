@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.fishfarm-bg-info{
+    background-color: #fceae8;
+}
+.categories{
+    color: white;
+}
+.categories img{
+    width: 100px;
+    }
+.fishfarm-bg-fast{
+    background-color: #ffa500;
+}
+.fishfarm-bg-two{
+    background-color: #da70d6;
+}
+.fishfarm-bg-tree{
+    background-color: #0000ff;
+}
+.fishfarm-buynow-btn{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+    width: 100%;   
+}
+.fishfarm-btn-search{
+    
+}
